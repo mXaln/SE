@@ -12,16 +12,16 @@ on:
   repository_dispatch:
     types: [insider]
   push:
-    branches: [ insider ]
+    branches: [insider]
     paths-ignore:
-    - '**/*.md'
+      - "**/*.md"
   pull_request:
-    branches: [ insider ]
+    branches: [insider]
     paths-ignore:
-    - '**/*.md'
+      - "**/*.md"
 
 env:
-  APP_NAME: Scribe_Codex
+  APP_NAME: ScribeCodex
   ASSETS_REPOSITORY: ${{ github.repository }}-insiders
   GITHUB_BRANCH: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'insider' }}
   OS_NAME: windows
@@ -55,7 +55,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: '18.17'
+          node-version: "18.17"
 
       - name: Install Yarn
         run: npm install -g yarn
@@ -63,7 +63,7 @@ jobs:
       - name: Setup Python 3
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Clone VSCode repo
         env:

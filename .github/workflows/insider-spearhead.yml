@@ -16,13 +16,13 @@ on:
         type: boolean
         description: Disable dispatch
   schedule:
-    - cron: '0 7 * * *'
+    - cron: "0 7 * * *"
 
 jobs:
   build:
     runs-on: macos-14
     env:
-      APP_NAME: Scribe_Codex
+      APP_NAME: ScribeCodex
       ASSETS_REPOSITORY: ${{ github.repository }}-insiders
       VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
       OS_NAME: osx
@@ -38,7 +38,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Clone VSCode repo
         run: . get_repo.sh
@@ -47,7 +47,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEW_RELEASE: ${{ github.event.inputs.new_release }}
-          IS_SPEARHEAD: 'yes'
+          IS_SPEARHEAD: "yes"
         run: . check_tags.sh
 
       - name: Build
@@ -77,5 +77,5 @@ jobs:
       - name: Dispatch builds
         uses: peter-evans/repository-dispatch@v3
         with:
-          event-type: 'insider'
+          event-type: "insider"
         if: github.event.inputs.dont_dispatch != 'true' && (env.SHOULD_BUILD == 'yes' || github.event.inputs.force_dispatch == 'true')

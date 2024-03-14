@@ -12,19 +12,19 @@ on:
   repository_dispatch:
     types: [insider]
   push:
-    branches: [ insider ]
+    branches: [insider]
     paths-ignore:
-    - '**/*.md'
+      - "**/*.md"
   pull_request:
-    branches: [ insider ]
+    branches: [insider]
     paths-ignore:
-    - '**/*.md'
+      - "**/*.md"
 
 env:
-  APP_NAME: Scribe_Codex
+  APP_NAME: ScribeCodex
   ASSETS_REPOSITORY: ${{ github.repository }}-insiders
   BINARY_NAME: codium-insiders
-  DISABLE_UPDATE: 'yes'
+  DISABLE_UPDATE: "yes"
   GITHUB_BRANCH: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'insider' }}
   OS_NAME: linux
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
@@ -69,7 +69,7 @@ jobs:
       MS_TAG: ${{ needs.check.outputs.MS_TAG }}
       RELEASE_VERSION: ${{ needs.check.outputs.RELEASE_VERSION }}
       SHOULD_BUILD: ${{ (needs.check.outputs.SHOULD_BUILD == 'yes' || github.event.inputs.generate_assets == 'true') && 'yes' || 'no' }}
-      VSCODE_ARCH: 'x64'
+      VSCODE_ARCH: "x64"
     outputs:
       BUILD_SOURCEVERSION: ${{ env.BUILD_SOURCEVERSION }}
 
@@ -82,7 +82,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: '18.17'
+          node-version: "18.17"
         if: env.SHOULD_BUILD == 'yes'
 
       - name: Install Yarn
@@ -92,7 +92,7 @@ jobs:
       - name: Setup Python 3
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
         if: env.SHOULD_BUILD == 'yes'
 
       - name: Install libkrb5-dev
@@ -105,7 +105,7 @@ jobs:
 
       - name: Build
         env:
-          SHOULD_BUILD_REH: 'no'
+          SHOULD_BUILD_REH: "no"
         run: ./build.sh
         if: env.SHOULD_BUILD == 'yes'
 
@@ -134,15 +134,15 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - vscode_arch: x64
-          npm_arch: x64
-          image: vscodium/vscodium-linux-build-agent:bionic-x64
-        - vscode_arch: arm64
-          npm_arch: arm64
-          image: vscodium/vscodium-linux-build-agent:bionic-arm64
-        - vscode_arch: armhf
-          npm_arch: arm
-          image: vscodium/vscodium-linux-build-agent:bionic-armhf
+          - vscode_arch: x64
+            npm_arch: x64
+            image: vscodium/vscodium-linux-build-agent:bionic-x64
+          - vscode_arch: arm64
+            npm_arch: arm64
+            image: vscodium/vscodium-linux-build-agent:bionic-arm64
+          - vscode_arch: armhf
+            npm_arch: arm
+            image: vscodium/vscodium-linux-build-agent:bionic-armhf
     container:
       image: ${{ matrix.image }}
     env:
@@ -171,7 +171,7 @@ jobs:
       - name: Check existing Oak tags/releases
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CHECK_REH: 'no'
+          CHECK_REH: "no"
         run: ./check_tags.sh
         if: env.SHOULD_BUILD == 'yes'
 
@@ -194,7 +194,7 @@ jobs:
 
       - name: Prepare assets
         env:
-          SHOULD_BUILD_REH: 'no'
+          SHOULD_BUILD_REH: "no"
         run: ./prepare_assets.sh
         if: env.SHOULD_BUILD == 'yes' && (env.SHOULD_DEPLOY == 'yes' || github.event.inputs.generate_assets == 'true')
 
@@ -229,12 +229,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - vscode_arch: x64
-          npm_arch: x64
-        - vscode_arch: arm64
-          npm_arch: arm64
-        - vscode_arch: armhf
-          npm_arch: arm
+          - vscode_arch: x64
+            npm_arch: x64
+          - vscode_arch: arm64
+            npm_arch: arm64
+          - vscode_arch: armhf
+            npm_arch: arm
         # - vscode_arch: ppc64le
         #   npm_arch: ppc64
     env:
@@ -259,7 +259,7 @@ jobs:
       - name: Check existing VSCodium tags/releases
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CHECK_ONLY_REH: 'yes'
+          CHECK_ONLY_REH: "yes"
         run: ./check_tags.sh
 
       - name: Download vscode artifact
@@ -299,10 +299,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - vscode_arch: x64
-          npm_arch: x64
-        - vscode_arch: arm64
-          npm_arch: arm64
+          - vscode_arch: x64
+            npm_arch: x64
+          - vscode_arch: arm64
+            npm_arch: arm64
     env:
       BUILD_SOURCEVERSION: ${{ needs.compile.outputs.BUILD_SOURCEVERSION }}
       MS_COMMIT: ${{ needs.check.outputs.MS_COMMIT }}
@@ -325,7 +325,7 @@ jobs:
       - name: Check existing VSCodium tags/releases
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CHECK_ONLY_REH: 'yes'
+          CHECK_ONLY_REH: "yes"
         run: ./check_tags.sh
 
       - name: Install libkrb5-dev
@@ -369,8 +369,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - package_name: vscodium-insiders-bin
-        - package_name: vscodium-insiders
+          - package_name: vscodium-insiders-bin
+          - package_name: vscodium-insiders
     if: needs.check.outputs.SHOULD_DEPLOY == 'yes' && github.event.inputs.generate_assets != 'true'
 
     steps:
@@ -399,8 +399,8 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-        - amd64
-        - arm64
+          - amd64
+          - arm64
     if: needs.check.outputs.SHOULD_DEPLOY == 'yes'
 
     steps:
@@ -417,7 +417,7 @@ jobs:
       - uses: diddlesnaps/snapcraft-review-action@v1
         with:
           snap: ${{ steps.build.outputs.snap }}
-          isClassic: 'true'
+          isClassic: "true"
 
       - uses: svenstaro/upload-release-action@v2
         with:

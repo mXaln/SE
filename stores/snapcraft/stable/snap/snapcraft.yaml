@@ -30,10 +30,10 @@ parts:
       snapcraftctl set-version "${VERSION}"
       # Prepare GUI
       mkdir -p "${SNAPCRAFT_PART_INSTALL}/meta/gui"
-      cp "${SNAPCRAFT_PART_INSTALL}/usr/share/codium/resources/app/resources/linux/code.png" "${SNAPCRAFT_PART_INSTALL}/meta/gui/codium.png"
+      cp "${SNAPCRAFT_PART_INSTALL}/usr/share/scribecodex/resources/app/resources/linux/code.png" "${SNAPCRAFT_PART_INSTALL}/meta/gui/codium.png"
       # Update paths
-      sed -i 's|Exec=/usr/share/codium/codium|Exec=codium --force-user-env|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/codium.desktop"
-      sed -i 's|Exec=/usr/share/codium/codium|Exec=codium --force-user-env|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/codium-url-handler.desktop"
+      sed -i 's|Exec=/usr/share/scribecodex/scribecodex|Exec=scribecodex --force-user-env|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/scribecodex.desktop"
+      sed -i 's|Exec=/usr/share/scribecodex/scribecodex|Exec=scribecodex --force-user-env|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/scribecodex-url-handler.desktop"
       sed -i 's|Icon=vscodium|Icon=${SNAP}/meta/gui/codium.png|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/scribecodex.desktop"
       sed -i 's|Icon=vscodium|Icon=${SNAP}/meta/gui/codium.png|g' "${SNAPCRAFT_PART_INSTALL}/usr/share/applications/scribecodex-url-handler.desktop"
     build-packages:
@@ -75,7 +75,7 @@ parts:
       - -usr/share/icons
       - -usr/share/lintian
       - -usr/share/man
-      - -usr/share/codium/chrome-sandbox
+      - -usr/share/scribecodex/chrome-sandbox
     build-attributes:
       - enable-patchelf
     override-prime: |
@@ -94,10 +94,10 @@ parts:
 
 apps:
   scribecodex:
-    command: electron-launch $SNAP/usr/share/codium/bin/codium --no-sandbox
+    command: electron-launch $SNAP/usr/share/scribecodex/bin/scribecodex --no-sandbox
     desktop: usr/share/applications/scribecodex.desktop
     common-id: scribecodex.desktop
 
   url-handler:
-    command: electron-launch $SNAP/usr/share/codium/bin/codium --open-url --no-sandbox
+    command: electron-launch $SNAP/usr/share/scribecodex/bin/scribecodex --open-url --no-sandbox
     desktop: usr/share/applications/scribecodex-url-handler.desktop

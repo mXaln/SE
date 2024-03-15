@@ -30,12 +30,12 @@ echo "bridge 2"
 echo "bridge 3"
   if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
     sed -i 's|@@NAME@@|ScribeCodex-Insiders|g' recipe.yml
-    sed -i 's|@@APPNAME@@|scribecodex-insiders|g' recipe.yml
+    sed -i 's|@@APPNAME@@|ScribeCodex-insiders|g' recipe.yml
     sed -i 's|@@ICON@@|vscodium-insiders|g' recipe.yml
   else
     sed -i 's|@@NAME@@|ScribeCodex|g' recipe.yml
     echo "bridge 4"
-    sed -i 's|@@APPNAME@@|scribecodex|g' recipe.yml
+    sed -i 's|@@APPNAME@@|ScribeCodex|g' recipe.yml
     echo "bridge 5"
     sed -i 's|@@ICON@@|vscodium|g' recipe.yml
   fi

@@ -37,7 +37,7 @@ echo "bridge 3"
     echo "bridge 4"
     sed -i 's|@@APPNAME@@|ScribeCodex|g' recipe.yml
     echo "bridge 5"
-    sed -i 's|@@ICON@@|vscodium|g' recipe.yml
+    sed -i 's|@@ICON@@|scribecodex|g' recipe.yml
   fi
 echo "bridge 6"
   bash -ex pkg2appimage.AppDir/AppRun recipe.yml

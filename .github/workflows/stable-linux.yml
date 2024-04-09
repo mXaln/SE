@@ -24,9 +24,9 @@ on:
       - "**/*.md"
 
 env:
-  APP_NAME: ScribeCodex
+  APP_NAME: ScribeEditor
   ASSETS_REPOSITORY: ${{ github.repository }}
-  BINARY_NAME: scribecodex
+  BINARY_NAME: scribeeditor
   DISABLE_UPDATE: "yes"
   OS_NAME: linux
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions

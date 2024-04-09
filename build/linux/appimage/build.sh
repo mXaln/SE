@@ -29,13 +29,13 @@ if [[ "${VSCODE_ARCH}" == "x64" ]]; then
   sed -i 's/grep docker/# grep docker/' pkg2appimage.AppDir/usr/share/pkg2appimage/functions.sh
 
   if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
-    sed -i 's|@@NAME@@|ScribeCodex-Insiders|g' recipe.yml
-    sed -i 's|@@APPNAME@@|ScribeCodex-insiders|g' recipe.yml
-    sed -i 's|@@ICON@@|ScribeCodex-insiders|g' recipe.yml
+    sed -i 's|@@NAME@@|ScribeEditor-Insiders|g' recipe.yml
+    sed -i 's|@@APPNAME@@|ScribeEditor-insiders|g' recipe.yml
+    sed -i 's|@@ICON@@|ScribeEditor-insiders|g' recipe.yml
   else
-    sed -i 's|@@NAME@@|ScribeCodex|g' recipe.yml
-    sed -i 's|@@APPNAME@@|ScribeCodex|g' recipe.yml
-    sed -i 's|@@ICON@@|ScribeCodex|g' recipe.yml
+    sed -i 's|@@NAME@@|ScribeEditor|g' recipe.yml
+    sed -i 's|@@APPNAME@@|ScribeEditor|g' recipe.yml
+    sed -i 's|@@ICON@@|ScribeEditor|g' recipe.yml
   fi
 
   bash -ex pkg2appimage.AppDir/AppRun recipe.yml
@@ -43,7 +43,7 @@ if [[ "${VSCODE_ARCH}" == "x64" ]]; then
   rm -f pkg2appimage-*.AppImage
   rm -rf pkg2appimage.AppDir
   rm -rf VSCodium*
-  rm -rf ScribeCodex*
+  rm -rf ScribeEditor*
 fi
 
 cd "${CALLER_DIR}"

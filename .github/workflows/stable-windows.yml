@@ -24,7 +24,7 @@ on:
       - "**/*.md"
 
 env:
-  APP_NAME: ScribeCodex
+  APP_NAME: ScribeEditor
   ASSETS_REPOSITORY: ${{ github.repository }}
   OS_NAME: windows
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions

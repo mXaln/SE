@@ -55,16 +55,16 @@ index 3da0242..d0867b1 100755
  if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
 -  setpath "product" "nameShort" "VSCodium - Insiders"
 -  setpath "product" "nameLong" "VSCodium - Insiders"
-+  setpath "product" "nameShort" "ScribeCodex - Insiders"
-+  setpath "product" "nameLong" "ScribeCodex - Insiders"
++  setpath "product" "nameShort" "ScribeEditor - Insiders"
++  setpath "product" "nameLong" "ScribeEditor - Insiders"
    setpath "product" "applicationName" "codium-insiders"
 -  setpath "product" "dataFolderName" ".vscodium-insiders"
 -  setpath "product" "linuxIconName" "vscodium-insiders"
-+  setpath "product" "dataFolderName" ".scribecodex-insiders"
-+  setpath "product" "linuxIconName" "scribecodex-insiders"
++  setpath "product" "dataFolderName" ".scribeeditor-insiders"
++  setpath "product" "linuxIconName" "scribeeditor-insiders"
    setpath "product" "quality" "insider"
 -  setpath "product" "urlProtocol" "vscodium-insiders"
-+  setpath "product" "urlProtocol" "scribecodex-insiders"
++  setpath "product" "urlProtocol" "scribeeditor-insiders"
    setpath "product" "serverApplicationName" "codium-server-insiders"
 -  setpath "product" "serverDataFolderName" ".vscodium-server-insiders"
 -  setpath "product" "darwinBundleIdentifier" "com.vscodium.VSCodiumInsiders"
@@ -74,14 +74,14 @@ index 3da0242..d0867b1 100755
 -  setpath "product" "win32NameVersion" "VSCodium Insiders"
 -  setpath "product" "win32RegValueName" "VSCodiumInsiders"
 -  setpath "product" "win32ShellNameShort" "VSCodium Insiders"
-+  setpath "product" "serverDataFolderName" ".scribecodex-server-insiders"
-+  setpath "product" "darwinBundleIdentifier" "com.scribecodex.ScribeInsiders"
-+  setpath "product" "win32AppUserModelId" "ScribeCodex.ScribeInsiders"
-+  setpath "product" "win32DirName" "ScribeCodex Insiders"
-+  setpath "product" "win32MutexName" "scribecodexinsiders"
-+  setpath "product" "win32NameVersion" "ScribeCodex Insiders"
-+  setpath "product" "win32RegValueName" "ScribeCodexInsiders"
-+  setpath "product" "win32ShellNameShort" "ScribeCodex Insiders"
++  setpath "product" "serverDataFolderName" ".scribeeditor-server-insiders"
++  setpath "product" "darwinBundleIdentifier" "com.scribeeditor.ScribeInsiders"
++  setpath "product" "win32AppUserModelId" "ScribeEditor.ScribeInsiders"
++  setpath "product" "win32DirName" "ScribeEditor Insiders"
++  setpath "product" "win32MutexName" "scribeeditorinsiders"
++  setpath "product" "win32NameVersion" "ScribeEditor Insiders"
++  setpath "product" "win32RegValueName" "ScribeEditorInsiders"
++  setpath "product" "win32ShellNameShort" "ScribeEditor Insiders"
    setpath "product" "win32AppId" "{{EF35BB36-FA7E-4BB9-B7DA-D1E09F2DA9C9}"
    setpath "product" "win32x64AppId" "{{B2E0DDB2-120E-4D34-9F7E-8C688FF839A2}"
    setpath "product" "win32arm64AppId" "{{44721278-64C6-4513-BC45-D48E07830599}"
@@ -93,10 +93,10 @@ index 3da0242..d0867b1 100755
 -  setpath "product" "nameLong" "VSCodium"
 -  setpath "product" "applicationName" "codium"
 -  setpath "product" "linuxIconName" "vscodium"
-+  setpath "product" "nameShort" "ScribeCodex"
-+  setpath "product" "nameLong" "ScribeCodex"
-+  setpath "product" "applicationName" "ScribeCodex"
-+  setpath "product" "linuxIconName" "ScribeCodex"
++  setpath "product" "nameShort" "ScribeEditor"
++  setpath "product" "nameLong" "ScribeEditor"
++  setpath "product" "applicationName" "ScribeEditor"
++  setpath "product" "linuxIconName" "ScribeEditor"
    setpath "product" "quality" "stable"
 -  setpath "product" "urlProtocol" "vscodium"
 -  setpath "product" "serverApplicationName" "codium-server"
@@ -108,16 +108,16 @@ index 3da0242..d0867b1 100755
 -  setpath "product" "win32NameVersion" "VSCodium"
 -  setpath "product" "win32RegValueName" "VSCodium"
 -  setpath "product" "win32ShellNameShort" "VSCodium"
-+  setpath "product" "urlProtocol" "ScribeCodex"
-+  setpath "product" "serverApplicationName" "scribecodex-server"
-+  setpath "product" "serverDataFolderName" ".scribecodex-server"
-+  setpath "product" "darwinBundleIdentifier" "com.scribecodex"
-+  setpath "product" "win32AppUserModelId" "ScribeCodex.ScribeCodex"
-+  setpath "product" "win32DirName" "ScribeCodex"
-+  setpath "product" "win32MutexName" "scribecodex"
-+  setpath "product" "win32NameVersion" "ScribeCodex"
-+  setpath "product" "win32RegValueName" "scribecodex"
-+  setpath "product" "win32ShellNameShort" "scribecodex"
++  setpath "product" "urlProtocol" "ScribeEditor"
++  setpath "product" "serverApplicationName" "scribeeditor-server"
++  setpath "product" "serverDataFolderName" ".scribeeditor-server"
++  setpath "product" "darwinBundleIdentifier" "com.scribeeditor"
++  setpath "product" "win32AppUserModelId" "ScribeEditor.ScribeEditor"
++  setpath "product" "win32DirName" "ScribeEditor"
++  setpath "product" "win32MutexName" "scribeeditor"
++  setpath "product" "win32NameVersion" "ScribeEditor"
++  setpath "product" "win32RegValueName" "scribeeditor"
++  setpath "product" "win32ShellNameShort" "scribeeditor"
    setpath "product" "win32AppId" "{{763CBF88-25C6-4B10-952F-326AE657F16B}"
    setpath "product" "win32x64AppId" "{{88DA3577-054F-4CA1-8122-7D820494CFFB}"
    setpath "product" "win32arm64AppId" "{{67DEE444-3D04-4258-B92A-BC1F0FF2CAE4}"
@@ -131,7 +131,7 @@ index 3da0242..d0867b1 100755
  setpath "package" "release" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\2/p" )"
  
 -replace 's|Microsoft Corporation|VSCodium|' package.json
-+replace 's|Microsoft Corporation|ScribeCodex|' package.json
++replace 's|Microsoft Corporation|ScribeEditor|' package.json
  
  # announcements
  replace "s|\\[\\/\\* BUILTIN_ANNOUNCEMENTS \\*\\/\\]|$( tr -d '\n' < ../announcements-builtin.json )|" src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
@@ -142,16 +142,16 @@ index 3da0242..d0867b1 100755
 -replace 's|Microsoft Corporation|VSCodium|' build/lib/electron.ts
 -replace 's|([0-9]) Microsoft|\1 VSCodium|' build/lib/electron.js
 -replace 's|([0-9]) Microsoft|\1 VSCodium|' build/lib/electron.ts
-+replace 's|Microsoft Corporation|ScribeCodex|' build/lib/electron.js
-+replace 's|Microsoft Corporation|ScribeCodex|' build/lib/electron.ts
-+replace 's|([0-9]) Microsoft|\1 ScribeCodex|' build/lib/electron.js
-+replace 's|([0-9]) Microsoft|\1 ScribeCodex|' build/lib/electron.ts
++replace 's|Microsoft Corporation|ScribeEditor|' build/lib/electron.js
++replace 's|Microsoft Corporation|ScribeEditor|' build/lib/electron.ts
++replace 's|([0-9]) Microsoft|\1 ScribeEditor|' build/lib/electron.js
++replace 's|([0-9]) Microsoft|\1 ScribeEditor|' build/lib/electron.ts
  
  if [[ "${OS_NAME}" == "linux" ]]; then
    # microsoft adds their apt repo to sources
    # unless the app name is code-oss
 -  # as we are renaming the application to vscodium
-+  # as we are renaming the application to scribecodex
++  # as we are renaming the application to scribeeditor
    # we need to edit a line in the post install template
    if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
      sed -i "s/code-oss/codium-insiders/" resources/linux/debian/postinst.template
@@ -161,7 +161,7 @@ index 3da0242..d0867b1 100755
    # code.appdata.xml
 -  sed -i 's|Visual Studio Code|VSCodium|g' resources/linux/code.appdata.xml
 -  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/VSCodium/vscodium#download-install|' resources/linux/code.appdata.xml
-+  sed -i 's|Visual Studio Code|ScribeCodex|g' resources/linux/code.appdata.xml
++  sed -i 's|Visual Studio Code|ScribeEditor|g' resources/linux/code.appdata.xml
 +  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/code.appdata.xml
    sed -i 's|https://code.visualstudio.com/home/home-screenshot-linux-lg.png|https://vscodium.com/img/vscodium.png|' resources/linux/code.appdata.xml
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/code.appdata.xml
@@ -172,9 +172,9 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/debian/control.template
 -  sed -i 's|Visual Studio Code|VSCodium|g' resources/linux/debian/control.template
 -  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/VSCodium/vscodium#download-install|' resources/linux/debian/control.template
-+  sed -i 's|Microsoft Corporation <vscode-linux@microsoft.com>|ScribeCodex Team https://github.com/Bridgeconn/oak/graphs/contributors|'  resources/linux/debian/control.template
++  sed -i 's|Microsoft Corporation <vscode-linux@microsoft.com>|ScribeEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|'  resources/linux/debian/control.template
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/debian/control.template
-+  sed -i 's|Visual Studio Code|ScribeCodex|g' resources/linux/debian/control.template
++  sed -i 's|Visual Studio Code|ScribeEditor|g' resources/linux/debian/control.template
 +  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/debian/control.template
  
    # code.spec.template
@@ -184,20 +184,20 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/rpm/code.spec.template
 -  sed -i 's|Visual Studio Code|VSCodium|' resources/linux/rpm/code.spec.template
 +  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/rpm/code.spec.template
-+  sed -i 's|Microsoft Corporation|ScribeCodex Team|' resources/linux/rpm/code.spec.template
-+  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScribeCodex Team https://github.com/Bridgeconn/oak/graphs/contributors|' resources/linux/rpm/code.spec.template
++  sed -i 's|Microsoft Corporation|ScribeEditor Team|' resources/linux/rpm/code.spec.template
++  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScribeEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|' resources/linux/rpm/code.spec.template
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/rpm/code.spec.template
-+  sed -i 's|Visual Studio Code|ScribeCodex|' resources/linux/rpm/code.spec.template
++  sed -i 's|Visual Studio Code|ScribeEditor|' resources/linux/rpm/code.spec.template
  
    # snapcraft.yaml
 -  sed -i 's|Visual Studio Code|VSCodium|'  resources/linux/rpm/code.spec.template
-+  sed -i 's|Visual Studio Code|ScribeCodex|'  resources/linux/rpm/code.spec.template
++  sed -i 's|Visual Studio Code|ScribeEditor|'  resources/linux/rpm/code.spec.template
  elif [[ "${OS_NAME}" == "windows" ]]; then
    # code.iss
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' build/win32/code.iss
 -  sed -i 's|Microsoft Corporation|VSCodium|' build/win32/code.iss
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' build/win32/code.iss
-+  sed -i 's|Microsoft Corporation|ScribeCodex|' build/win32/code.iss
++  sed -i 's|Microsoft Corporation|ScribeEditor|' build/win32/code.iss
  fi
  
 -cd ..

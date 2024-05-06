@@ -162,22 +162,22 @@ if [[ "${DISABLE_UPDATE}" != "yes" ]]; then
 fi
 
 if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
-  setpath "product" "nameShort" "ScribeEditor - Insiders"
-  setpath "product" "nameLong" "ScribeEditor - Insiders"
+  setpath "product" "nameShort" "ScriptureEditor - Insiders"
+  setpath "product" "nameLong" "ScriptureEditor - Insiders"
   setpath "product" "applicationName" "codium-insiders"
-  setpath "product" "dataFolderName" ".scribeeditor-insiders"
-  setpath "product" "linuxIconName" "scribeeditor-insiders"
+  setpath "product" "dataFolderName" ".scriptureeditor-insiders"
+  setpath "product" "linuxIconName" "scriptureeditor-insiders"
   setpath "product" "quality" "insider"
-  setpath "product" "urlProtocol" "scribeeditor-insiders"
+  setpath "product" "urlProtocol" "scriptureeditor-insiders"
   setpath "product" "serverApplicationName" "codium-server-insiders"
-  setpath "product" "serverDataFolderName" ".scribeeditor-server-insiders"
-  setpath "product" "darwinBundleIdentifier" "com.scribeeditor.ScribeInsiders"
-  setpath "product" "win32AppUserModelId" "ScribeEditor.ScribeInsiders"
-  setpath "product" "win32DirName" "ScribeEditor Insiders"
-  setpath "product" "win32MutexName" "scribeeditorinsiders"
-  setpath "product" "win32NameVersion" "ScribeEditor Insiders"
-  setpath "product" "win32RegValueName" "ScribeEditorInsiders"
-  setpath "product" "win32ShellNameShort" "ScribeEditor Insiders"
+  setpath "product" "serverDataFolderName" ".scriptureeditor-server-insiders"
+  setpath "product" "darwinBundleIdentifier" "com.scriptureeditor.ScriptureInsiders"
+  setpath "product" "win32AppUserModelId" "ScriptureEditor.ScriptureInsiders"
+  setpath "product" "win32DirName" "ScriptureEditor Insiders"
+  setpath "product" "win32MutexName" "scriptureeditorinsiders"
+  setpath "product" "win32NameVersion" "ScriptureEditor Insiders"
+  setpath "product" "win32RegValueName" "ScriptureEditorInsiders"
+  setpath "product" "win32ShellNameShort" "ScriptureEditor Insiders"
   setpath "product" "win32AppId" "{{EF35BB36-FA7E-4BB9-B7DA-D1E09F2DA9C9}"
   setpath "product" "win32x64AppId" "{{B2E0DDB2-120E-4D34-9F7E-8C688FF839A2}"
   setpath "product" "win32arm64AppId" "{{44721278-64C6-4513-BC45-D48E07830599}"
@@ -185,21 +185,21 @@ if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
   setpath "product" "win32x64UserAppId" "{{20F79D0D-A9AC-4220-9A81-CE675FFB6B41}"
   setpath "product" "win32arm64UserAppId" "{{2E362F92-14EA-455A-9ABD-3E656BBBFE71}"
 else
-  setpath "product" "nameShort" "ScribeEditor"
-  setpath "product" "nameLong" "ScribeEditor"
-  setpath "product" "applicationName" "ScribeEditor"
-  setpath "product" "linuxIconName" "ScribeEditor"
+  setpath "product" "nameShort" "ScriptureEditor"
+  setpath "product" "nameLong" "ScriptureEditor"
+  setpath "product" "applicationName" "ScriptureEditor"
+  setpath "product" "linuxIconName" "ScriptureEditor"
   setpath "product" "quality" "stable"
-  setpath "product" "urlProtocol" "ScribeEditor"
-  setpath "product" "serverApplicationName" "scribeeditor-server"
-  setpath "product" "serverDataFolderName" ".scribeeditor-server"
-  setpath "product" "darwinBundleIdentifier" "com.scribeeditor"
-  setpath "product" "win32AppUserModelId" "ScribeEditor.ScribeEditor"
-  setpath "product" "win32DirName" "ScribeEditor"
-  setpath "product" "win32MutexName" "scribeeditor"
-  setpath "product" "win32NameVersion" "ScribeEditor"
-  setpath "product" "win32RegValueName" "scribeeditor"
-  setpath "product" "win32ShellNameShort" "scribeeditor"
+  setpath "product" "urlProtocol" "ScriptureEditor"
+  setpath "product" "serverApplicationName" "scriptureeditor-server"
+  setpath "product" "serverDataFolderName" ".scriptureeditor-server"
+  setpath "product" "darwinBundleIdentifier" "com.scriptureeditor"
+  setpath "product" "win32AppUserModelId" "ScriptureEditor.ScriptureEditor"
+  setpath "product" "win32DirName" "ScriptureEditor"
+  setpath "product" "win32MutexName" "scriptureeditor"
+  setpath "product" "win32NameVersion" "ScriptureEditor"
+  setpath "product" "win32RegValueName" "scriptureeditor"
+  setpath "product" "win32ShellNameShort" "scriptureeditor"
   setpath "product" "win32AppId" "{{763CBF88-25C6-4B10-952F-326AE657F16B}"
   setpath "product" "win32x64AppId" "{{88DA3577-054F-4CA1-8122-7D820494CFFB}"
   setpath "product" "win32arm64AppId" "{{67DEE444-3D04-4258-B92A-BC1F0FF2CAE4}"
@@ -220,22 +220,22 @@ cp package.json{,.bak}
 setpath "package" "version" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\1/p" )" 
 setpath "package" "release" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\2/p" )"
 
-replace 's|Microsoft Corporation|ScribeEditor|' package.json
+replace 's|Microsoft Corporation|ScriptureEditor|' package.json
 
 # announcements
 replace "s|\\[\\/\\* BUILTIN_ANNOUNCEMENTS \\*\\/\\]|$( tr -d '\n' < ../announcements-builtin.json )|" src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
 
 ../undo_telemetry.sh
 
-replace 's|Microsoft Corporation|ScribeEditor|' build/lib/electron.js
-replace 's|Microsoft Corporation|ScribeEditor|' build/lib/electron.ts
-replace 's|([0-9]) Microsoft|\1 ScribeEditor|' build/lib/electron.js
-replace 's|([0-9]) Microsoft|\1 ScribeEditor|' build/lib/electron.ts
+replace 's|Microsoft Corporation|ScriptureEditor|' build/lib/electron.js
+replace 's|Microsoft Corporation|ScriptureEditor|' build/lib/electron.ts
+replace 's|([0-9]) Microsoft|\1 ScriptureEditor|' build/lib/electron.js
+replace 's|([0-9]) Microsoft|\1 ScriptureEditor|' build/lib/electron.ts
 
 if [[ "${OS_NAME}" == "linux" ]]; then
   # microsoft adds their apt repo to sources
   # unless the app name is code-oss
-  # as we are renaming the application to scribeeditor
+  # as we are renaming the application to scriptureeditor
   # we need to edit a line in the post install template
   if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
     sed -i "s/code-oss/codium-insiders/" resources/linux/debian/postinst.template
@@ -245,30 +245,30 @@ if [[ "${OS_NAME}" == "linux" ]]; then
 
   # fix the packages metadata
   # code.appdata.xml
-  sed -i 's|Visual Studio Code|ScribeEditor|g' resources/linux/code.appdata.xml
+  sed -i 's|Visual Studio Code|ScriptureEditor|g' resources/linux/code.appdata.xml
   sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/code.appdata.xml
   sed -i 's|https://code.visualstudio.com/home/home-screenshot-linux-lg.png|https://vscodium.com/img/vscodium.png|' resources/linux/code.appdata.xml
   sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/code.appdata.xml
 
   # control.template
-  sed -i 's|Microsoft Corporation <vscode-linux@microsoft.com>|ScribeEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|'  resources/linux/debian/control.template
+  sed -i 's|Microsoft Corporation <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|'  resources/linux/debian/control.template
   sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/debian/control.template
-  sed -i 's|Visual Studio Code|ScribeEditor|g' resources/linux/debian/control.template
+  sed -i 's|Visual Studio Code|ScriptureEditor|g' resources/linux/debian/control.template
   sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/debian/control.template
 
   # code.spec.template
   sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/rpm/code.spec.template
-  sed -i 's|Microsoft Corporation|ScribeEditor Team|' resources/linux/rpm/code.spec.template
-  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScribeEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|' resources/linux/rpm/code.spec.template
+  sed -i 's|Microsoft Corporation|ScriptureEditor Team|' resources/linux/rpm/code.spec.template
+  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|' resources/linux/rpm/code.spec.template
   sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/rpm/code.spec.template
-  sed -i 's|Visual Studio Code|ScribeEditor|' resources/linux/rpm/code.spec.template
+  sed -i 's|Visual Studio Code|ScriptureEditor|' resources/linux/rpm/code.spec.template
 
   # snapcraft.yaml
-  sed -i 's|Visual Studio Code|ScribeEditor|'  resources/linux/rpm/code.spec.template
+  sed -i 's|Visual Studio Code|ScriptureEditor|'  resources/linux/rpm/code.spec.template
 elif [[ "${OS_NAME}" == "windows" ]]; then
   # code.iss
   sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' build/win32/code.iss
-  sed -i 's|Microsoft Corporation|ScribeEditor|' build/win32/code.iss
+  sed -i 's|Microsoft Corporation|ScriptureEditor|' build/win32/code.iss
 fi
 
 cd ..

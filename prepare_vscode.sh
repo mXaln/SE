@@ -54,12 +54,12 @@ for file in ../patches/user/*.patch; do
   fi
 done
 
-# Add below content manually 
+#Add below content manually
 for file in ../scribe/patches/*.patch; do
   if [[ -f "${file}" ]]; then
     echo applying scribe main patch: "${file}";
     # grep '^+++' "${file}"  | sed -e 's#+++ [ab]/#./vscode/#' | while read line; do shasum -a 256 "${line}"; done
-    if ! git apply --ignore-whitespace "${file}"; then
+    if ! git apply --3way "${file}"; then
       echo failed to apply scribe main patch "${file}" >&2
       exit 1
     fi
@@ -165,13 +165,13 @@ if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
   setpath "product" "nameShort" "ScriptureEditor - Insiders"
   setpath "product" "nameLong" "ScriptureEditor - Insiders"
   setpath "product" "applicationName" "codium-insiders"
-  setpath "product" "dataFolderName" ".scriptureeditor-insiders"
-  setpath "product" "linuxIconName" "scriptureeditor-insiders"
+  setpath "product" "dataFolderName" ".scriptureEditor-insiders"
+  setpath "product" "linuxIconName" "scriptureEditor-insiders"
   setpath "product" "quality" "insider"
-  setpath "product" "urlProtocol" "scriptureeditor-insiders"
+  setpath "product" "urlProtocol" "scriptureEditor-insiders"
   setpath "product" "serverApplicationName" "codium-server-insiders"
   setpath "product" "serverDataFolderName" ".scriptureeditor-server-insiders"
-  setpath "product" "darwinBundleIdentifier" "com.scriptureeditor.ScriptureInsiders"
+  setpath "product" "darwinBundleIdentifier" "com.scriptureEditor.ScriptureInsiders"
   setpath "product" "win32AppUserModelId" "ScriptureEditor.ScriptureInsiders"
   setpath "product" "win32DirName" "ScriptureEditor Insiders"
   setpath "product" "win32MutexName" "scriptureeditorinsiders"
@@ -191,9 +191,9 @@ else
   setpath "product" "linuxIconName" "ScriptureEditor"
   setpath "product" "quality" "stable"
   setpath "product" "urlProtocol" "ScriptureEditor"
-  setpath "product" "serverApplicationName" "scriptureeditor-server"
-  setpath "product" "serverDataFolderName" ".scriptureeditor-server"
-  setpath "product" "darwinBundleIdentifier" "com.scriptureeditor"
+  setpath "product" "serverApplicationName" "scriptureEditor-server"
+  setpath "product" "serverDataFolderName" ".scriptureEditor-server"
+  setpath "product" "darwinBundleIdentifier" "com.scriptureEditor"
   setpath "product" "win32AppUserModelId" "ScriptureEditor.ScriptureEditor"
   setpath "product" "win32DirName" "ScriptureEditor"
   setpath "product" "win32MutexName" "scriptureeditor"
@@ -217,7 +217,7 @@ cat product.json
 cp package.json{,.bak}
 
  #setpath "package" "version" "$( echo "${RELEASE_VERSION}")" //Removing the below lines because we will be using same versioning
-setpath "package" "version" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\1/p" )" 
+setpath "package" "version" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\1/p" )"
 setpath "package" "release" "$( echo "${RELEASE_VERSION}" | sed -n -E "s/^(.*)\.([0-9]+)(-insider)?$/\2/p" )"
 
 replace 's|Microsoft Corporation|ScriptureEditor|' package.json
@@ -235,7 +235,7 @@ replace 's|([0-9]) Microsoft|\1 ScriptureEditor|' build/lib/electron.ts
 if [[ "${OS_NAME}" == "linux" ]]; then
   # microsoft adds their apt repo to sources
   # unless the app name is code-oss
-  # as we are renaming the application to scriptureeditor
+  # as we are renaming the application to ScriptureEditor
   # we need to edit a line in the post install template
   if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
     sed -i "s/code-oss/codium-insiders/" resources/linux/debian/postinst.template

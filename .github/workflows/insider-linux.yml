@@ -24,7 +24,7 @@ on:
       - "**/*.md"
 
 env:
-  APP_NAME: ScribeEditor
+  APP_NAME: ScriptureEditor
   ASSETS_REPOSITORY: ${{ github.repository }}-insiders
   BINARY_NAME: codium-insiders
   DISABLE_UPDATE: "yes"

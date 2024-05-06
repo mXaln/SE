@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: macos-14
     env:
-      APP_NAME: ScribeEditor
+      APP_NAME: ScriptureEditor
       ASSETS_REPOSITORY: ${{ github.repository }}
       VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
       OS_NAME: osx

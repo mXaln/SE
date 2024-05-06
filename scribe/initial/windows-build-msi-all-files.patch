@@ -194,7 +194,7 @@ index 3734d65..0fc6687 100644
        <!--
          In general it seems very hard to track what files may have changed
 -        between vscodium versions. As files are crawled with heat and GUIDs
-+        between scribeeditor versions. As files are crawled with heat and GUIDs
++        between scriptureeditor versions. As files are crawled with heat and GUIDs
          are automatically generated some MSI "optimization" features are not
          available. But no real problem, it only takes some more seconds to
          upgrade between versions.

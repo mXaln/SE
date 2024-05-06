@@ -24,7 +24,7 @@ on:
       - "**/*.md"
 
 env:
-  APP_NAME: ScribeEditor
+  APP_NAME: ScriptureEditor
   ASSETS_REPOSITORY: ${{ github.repository }}-insiders
   GITHUB_BRANCH: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'insider' }}
   OS_NAME: osx

@@ -7,5 +7,5 @@ index 7e4d6dc..252f22a 100644
  				Square70x70Logo="resources\app\resources\win32\code_70x70.png"
  				ForegroundText="light"
 -				ShortDisplayName="VSCodium" />
-+				ShortDisplayName="ScribeEditor" />
++				ShortDisplayName="ScriptureEditor" />
  </Application>

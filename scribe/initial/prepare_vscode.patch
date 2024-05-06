@@ -20,7 +20,7 @@ index 3da0242..d0867b1 100755
 +  if [[ -f "${file}" ]]; then
 +    echo applying scribe main patch: "${file}";
 +    # grep '^+++' "${file}"  | sed -e 's#+++ [ab]/#./vscode/#' | while read line; do shasum -a 256 "${line}"; done
-+    if ! git apply --3way "${file}"; then
++    if ! git apply --ignore-whitespace "${file}"; then
 +      echo failed to apply scribe main patch "${file}" >&2
 +      exit 1
 +    fi
@@ -60,11 +60,11 @@ index 3da0242..d0867b1 100755
    setpath "product" "applicationName" "codium-insiders"
 -  setpath "product" "dataFolderName" ".vscodium-insiders"
 -  setpath "product" "linuxIconName" "vscodium-insiders"
-+  setpath "product" "dataFolderName" ".ScriptureEditor-insiders"
-+  setpath "product" "linuxIconName" "ScriptureEditor-insiders"
++  setpath "product" "dataFolderName" ".scriptureeditor-insiders"
++  setpath "product" "linuxIconName" "scriptureeditor-insiders"
    setpath "product" "quality" "insider"
 -  setpath "product" "urlProtocol" "vscodium-insiders"
-+  setpath "product" "urlProtocol" "ScriptureEditor-insiders"
++  setpath "product" "urlProtocol" "scriptureeditor-insiders"
    setpath "product" "serverApplicationName" "codium-server-insiders"
 -  setpath "product" "serverDataFolderName" ".vscodium-server-insiders"
 -  setpath "product" "darwinBundleIdentifier" "com.vscodium.VSCodiumInsiders"
@@ -74,11 +74,11 @@ index 3da0242..d0867b1 100755
 -  setpath "product" "win32NameVersion" "VSCodium Insiders"
 -  setpath "product" "win32RegValueName" "VSCodiumInsiders"
 -  setpath "product" "win32ShellNameShort" "VSCodium Insiders"
-+  setpath "product" "serverDataFolderName" ".ScriptureEditor-server-insiders"
-+  setpath "product" "darwinBundleIdentifier" "com.ScriptureEditor.ScribeInsiders"
-+  setpath "product" "win32AppUserModelId" "ScriptureEditor.ScribeInsiders"
++  setpath "product" "serverDataFolderName" ".scriptureeditor-server-insiders"
++  setpath "product" "darwinBundleIdentifier" "com.scriptureeditor.ScriptureEditorInsiders"
++  setpath "product" "win32AppUserModelId" "ScriptureEditor.ScriptureEditorInsiders"
 +  setpath "product" "win32DirName" "ScriptureEditor Insiders"
-+  setpath "product" "win32MutexName" "ScriptureEditorinsiders"
++  setpath "product" "win32MutexName" "scriptureeditorinsiders"
 +  setpath "product" "win32NameVersion" "ScriptureEditor Insiders"
 +  setpath "product" "win32RegValueName" "ScriptureEditorInsiders"
 +  setpath "product" "win32ShellNameShort" "ScriptureEditor Insiders"
@@ -95,8 +95,8 @@ index 3da0242..d0867b1 100755
 -  setpath "product" "linuxIconName" "vscodium"
 +  setpath "product" "nameShort" "ScriptureEditor"
 +  setpath "product" "nameLong" "ScriptureEditor"
-+  setpath "product" "applicationName" "ScriptureEditor"
-+  setpath "product" "linuxIconName" "ScriptureEditor"
++  setpath "product" "applicationName" "scriptureeditor"
++  setpath "product" "linuxIconName" "scriptureeditor"
    setpath "product" "quality" "stable"
 -  setpath "product" "urlProtocol" "vscodium"
 -  setpath "product" "serverApplicationName" "codium-server"
@@ -142,10 +142,10 @@ index 3da0242..d0867b1 100755
 -replace 's|Microsoft Corporation|VSCodium|' build/lib/electron.ts
 -replace 's|([0-9]) Microsoft|\1 VSCodium|' build/lib/electron.js
 -replace 's|([0-9]) Microsoft|\1 VSCodium|' build/lib/electron.ts
-+replace 's|Microsoft Corporation|ScriptureEditor|' build/lib/electron.js
-+replace 's|Microsoft Corporation|ScriptureEditor|' build/lib/electron.ts
-+replace 's|([0-9]) Microsoft|\1 ScriptureEditor|' build/lib/electron.js
-+replace 's|([0-9]) Microsoft|\1 ScriptureEditor|' build/lib/electron.ts
++replace 's|Wycliffe Associates|ScriptureEditor|' build/lib/electron.js
++replace 's|Wycliffe Associates|ScriptureEditor|' build/lib/electron.ts
++replace 's|([0-9]) WA|\1 ScriptureEditor|' build/lib/electron.js
++replace 's|([0-9]) WA|\1 ScriptureEditor|' build/lib/electron.ts
  
  if [[ "${OS_NAME}" == "linux" ]]; then
    # microsoft adds their apt repo to sources
@@ -162,7 +162,7 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|Visual Studio Code|VSCodium|g' resources/linux/code.appdata.xml
 -  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/VSCodium/vscodium#download-install|' resources/linux/code.appdata.xml
 +  sed -i 's|Visual Studio Code|ScriptureEditor|g' resources/linux/code.appdata.xml
-+  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/code.appdata.xml
++  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/mxaln/ScriptureEditor/blob/master/README.md|' resources/linux/code.appdata.xml
    sed -i 's|https://code.visualstudio.com/home/home-screenshot-linux-lg.png|https://vscodium.com/img/vscodium.png|' resources/linux/code.appdata.xml
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/code.appdata.xml
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/code.appdata.xml
@@ -172,10 +172,10 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/debian/control.template
 -  sed -i 's|Visual Studio Code|VSCodium|g' resources/linux/debian/control.template
 -  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/VSCodium/vscodium#download-install|' resources/linux/debian/control.template
-+  sed -i 's|Microsoft Corporation <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|'  resources/linux/debian/control.template
++  sed -i 's|Wycliffe Associates <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/mxaln/ScriptureEditor/graphs/contributors|'  resources/linux/debian/control.template
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/debian/control.template
 +  sed -i 's|Visual Studio Code|ScriptureEditor|g' resources/linux/debian/control.template
-+  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/debian/control.template
++  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/mxaln/ScriptureEditor/blob/master/README.md|' resources/linux/debian/control.template
  
    # code.spec.template
 -  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/VSCodium/vscodium#download-install|' resources/linux/rpm/code.spec.template
@@ -183,9 +183,9 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors|' resources/linux/rpm/code.spec.template
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' resources/linux/rpm/code.spec.template
 -  sed -i 's|Visual Studio Code|VSCodium|' resources/linux/rpm/code.spec.template
-+  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/Bridgeconn/oak/blob/master/README.md|' resources/linux/rpm/code.spec.template
-+  sed -i 's|Microsoft Corporation|ScriptureEditor Team|' resources/linux/rpm/code.spec.template
-+  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/Bridgeconn/oak/graphs/contributors|' resources/linux/rpm/code.spec.template
++  sed -i 's|https://code.visualstudio.com/docs/setup/linux|https://github.com/mxaln/ScriptureEditor/blob/master/README.md|' resources/linux/rpm/code.spec.template
++  sed -i 's|Wycliffe Associates|ScriptureEditor Team|' resources/linux/rpm/code.spec.template
++  sed -i 's|Visual Studio Code Team <vscode-linux@microsoft.com>|ScriptureEditor Team https://github.com/mxaln/ScriptureEditor/graphs/contributors|' resources/linux/rpm/code.spec.template
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' resources/linux/rpm/code.spec.template
 +  sed -i 's|Visual Studio Code|ScriptureEditor|' resources/linux/rpm/code.spec.template
  
@@ -197,7 +197,7 @@ index 3da0242..d0867b1 100755
 -  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' build/win32/code.iss
 -  sed -i 's|Microsoft Corporation|VSCodium|' build/win32/code.iss
 +  sed -i 's|https://code.visualstudio.com|https://scribe.bible/|' build/win32/code.iss
-+  sed -i 's|Microsoft Corporation|ScriptureEditor|' build/win32/code.iss
++  sed -i 's|Wycliffe Associates|ScriptureEditor|' build/win32/code.iss
  fi
  
 -cd ..

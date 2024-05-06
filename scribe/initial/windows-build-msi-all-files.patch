@@ -9,9 +9,9 @@ index ca92126..6b215dd 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Paket mit @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Startmenü-Verknüpfung</String>
    <String Id="FeatureStartMenuShortcutDescription">Startmenü-Symbol erstellen.</String>
@@ -26,9 +26,9 @@ index 24303fa..7155de0 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -43,9 +43,9 @@ index af84628..75a792f 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -60,9 +60,9 @@ index 5f89947..374cd86 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -77,9 +77,9 @@ index f1b9f29..b88bbb9 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -94,9 +94,9 @@ index 42175b9..3d44c3c 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -111,9 +111,9 @@ index d665d0b..9efdba4 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -128,9 +128,9 @@ index e31d2dd..04bf128 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Пакет с @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Ярлык в меню «Пуск»</String>
    <String Id="FeatureStartMenuShortcutDescription">Создайте значок в меню «Пуск».</String>
@@ -145,9 +145,9 @@ index c5fab3a..ff3605d 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -162,9 +162,9 @@ index a218f51..645e016 100644
 -  <String Id="ProductHelpLink">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlInfoAbout">https://github.com/VSCodium/vscodium</String>
 -  <String Id="ProductUrlUpdateInfo">https://github.com/VSCodium/vscodium</String>
-+  <String Id="ProductHelpLink">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlInfoAbout">https://github.com/Bridgeconn/oak</String>
-+  <String Id="ProductUrlUpdateInfo">https://github.com/Bridgeconn/oak</String>
++  <String Id="ProductHelpLink">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlInfoAbout">https://github.com/mxaln/ScriptureEditor</String>
++  <String Id="ProductUrlUpdateInfo">https://github.com/mxaln/ScriptureEditor</String>
    <String Id="PackageDescription">Package with @@PRODUCT_NAME@@</String>
    <String Id="FeatureStartMenuShortcutTitle">Start Menu shortcut</String>
    <String Id="FeatureStartMenuShortcutDescription">Create a start menu icon.</String>
@@ -203,7 +203,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ascx" Description="ASCX" Icon="XML.ICO">
                <Extension Id="ascx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -212,7 +212,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).asp" Description="ASP" Icon="HTML.ICO">
                <Extension Id="asp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -221,7 +221,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).aspx" Description="ASPX" Icon="HTML.ICO">
                <Extension Id="aspx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -230,7 +230,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bash" Description="Bash" Icon="SHELL.ICO">
                <Extension Id="bash">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -239,7 +239,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bash_login" Description="Bash Login" Icon="SHELL.ICO">
                <Extension Id="bash_login">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -248,7 +248,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bash_logout" Description="Bash Logout" Icon="SHELL.ICO">
                <Extension Id="bash_logout">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -257,7 +257,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bash_profile" Description="Bash Profile" Icon="SHELL.ICO">
                <Extension Id="bash_profile">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -266,7 +266,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bashrc" Description="Bash RC" Icon="SHELL.ICO">
                <Extension Id="bashrc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -275,7 +275,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bib" Description="BibTeX" Icon="DEFAULT.ICO">
                <Extension Id="bib">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -284,7 +284,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).bowerrc" Description="Bower RC" Icon="BOWER.ICO">
                <Extension Id="bowerrc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -293,7 +293,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).c" Description="C" Icon="C.ICO">
                <Extension Id="c">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -302,7 +302,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cc" Description="C++" Icon="CPP.ICO">
                <Extension Id="cc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -311,7 +311,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).clj" Description="Clojure" Icon="DEFAULT.ICO">
                <Extension Id="clj">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -320,7 +320,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cljs" Description="ClojureScript" Icon="DEFAULT.ICO">
                <Extension Id="cljs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -329,7 +329,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cljx" Description="CLJX" Icon="DEFAULT.ICO">
                <Extension Id="cljx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -338,7 +338,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).clojure" Description="Clojure" Icon="DEFAULT.ICO">
                <Extension Id="clojure">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -347,7 +347,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).code-workspace" Description="Code Workspace" Icon="DEFAULT.ICO">
                <Extension Id="code-workspace">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -356,7 +356,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).coffee" Description="CoffeeScript" Icon="DEFAULT.ICO">
                <Extension Id="coffee">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -365,7 +365,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).config" Description="Configuration" Icon="CONFIG.ICO">
                <Extension Id="config">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -374,7 +374,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cpp" Description="C++" Icon="CPP.ICO">
                <Extension Id="cpp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -383,7 +383,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cs" Description="C#" Icon="CSHARP.ICO">
                <Extension Id="cs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -392,7 +392,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cshtml" Description="CSHTML" Icon="HTML.ICO">
                <Extension Id="cshtml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -401,7 +401,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).csproj" Description="C# Project" Icon="XML.ICO">
                <Extension Id="csproj">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -410,7 +410,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).css" Description="CSS" Icon="CSS.ICO">
                <Extension Id="css">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -419,7 +419,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).csx" Description="C# Script" Icon="CSHARP.ICO">
                <Extension Id="csx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -428,7 +428,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ctp" Description="CakePHP Template" Icon="DEFAULT.ICO">
                <Extension Id="ctp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -437,7 +437,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).cxx" Description="C++" Icon="CPP.ICO">
                <Extension Id="cxx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -446,7 +446,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).dockerfile" Description="Dockerfile" Icon="DEFAULT.ICO">
                <Extension Id="dockerfile">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -455,7 +455,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).dot" Description="Dot" Icon="DEFAULT.ICO">
                <Extension Id="dot">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -464,7 +464,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).dtd" Description="Document Type Definition" Icon="XML.ICO">
                <Extension Id="dtd">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -473,7 +473,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).editorconfig" Description="Editor Config" Icon="CONFIG.ICO">
                <Extension Id="editorconfig">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -482,7 +482,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).edn" Description="Extensible Data Notation" Icon="DEFAULT.ICO">
                <Extension Id="edn">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -491,7 +491,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).eyaml" Description="Hiera Eyaml" Icon="YAML.ICO">
                <Extension Id="eyaml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -500,7 +500,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).eyml" Description="Hiera Eyaml" Icon="YAML.ICO">
                <Extension Id="eyml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -509,7 +509,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).fs" Description="F#" Icon="DEFAULT.ICO">
                <Extension Id="fs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -518,7 +518,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).fsi" Description="F# Signature" Icon="DEFAULT.ICO">
                <Extension Id="fsi">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -527,7 +527,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).fsscript" Description="F# Script" Icon="DEFAULT.ICO">
                <Extension Id="fsscript">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -536,7 +536,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).fsx" Description="F# Script" Icon="DEFAULT.ICO">
                <Extension Id="fsx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -545,7 +545,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).gemspec" Description="Gemspec" Icon="RUBY.ICO">
                <Extension Id="gemspec">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -554,7 +554,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).gitattributes" Description="Git Attributes" Icon="CONFIG.ICO">
                <Extension Id="gitattributes">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -563,7 +563,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).gitconfig" Description="Git Config" Icon="CONFIG.ICO">
                <Extension Id="gitconfig">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -572,7 +572,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).gitignore" Description="Git Ignore" Icon="CONFIG.ICO">
                <Extension Id="gitignore">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -581,7 +581,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).go" Description="Go" Icon="GO.ICO">
                <Extension Id="go">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -590,7 +590,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).h" Description="C Header" Icon="C.ICO">
                <Extension Id="h">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -599,7 +599,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).handlebars" Description="Handlebars" Icon="DEFAULT.ICO">
                <Extension Id="handlebars">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -608,7 +608,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).hbs" Description="Handlebars" Icon="DEFAULT.ICO">
                <Extension Id="hbs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -617,7 +617,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).hh" Description="C++ Header" Icon="CPP.ICO">
                <Extension Id="hh">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -626,7 +626,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).hpp" Description="C++ Header" Icon="CPP.ICO">
                <Extension Id="hpp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -635,7 +635,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).htm" Description="HTML" Icon="HTML.ICO">
                <Extension Id="htm">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -644,7 +644,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).html" Description="HTML" Icon="HTML.ICO">
                <Extension Id="html">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -653,7 +653,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).hxx" Description="C++ Header" Icon="CPP.ICO">
                <Extension Id="hxx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -662,7 +662,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ini" Description="INI" Icon="CONFIG.ICO">
                <Extension Id="ini">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -671,7 +671,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jade" Description="Jade" Icon="JADE.ICO">
                <Extension Id="jade">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -680,7 +680,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jav" Description="Java" Icon="JAVA.ICO">
                <Extension Id="jav">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -689,7 +689,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).java" Description="Java" Icon="JAVA.ICO">
                <Extension Id="java">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -698,7 +698,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).js" Description="JavaScript" Icon="JAVASCRIPT.ICO">
                <Extension Id="js">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -707,7 +707,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jsx" Description="JavaScript" Icon="REACT.ICO">
                <Extension Id="jsx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -716,7 +716,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jscsrc" Description="JSCS RC" Icon="JAVASCRIPT.ICO">
                <Extension Id="jscsrc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -725,7 +725,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jshintrc" Description="JSHint RC" Icon="JAVASCRIPT.ICO">
                <Extension Id="jshintrc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -734,7 +734,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jshtm" Description="JavaScript HTML Template" Icon="HTML.ICO">
                <Extension Id="jshtm">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -743,7 +743,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).json" Description="JSON" Icon="JSON.ICO">
                <Extension Id="json">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -752,7 +752,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).jsp" Description="Java Server Pages" Icon="HTML.ICO">
                <Extension Id="jsp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -761,7 +761,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).less" Description="LESS" Icon="LESS.ICO">
                <Extension Id="less">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -770,7 +770,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).lua" Description="Lua" Icon="DEFAULT.ICO">
                <Extension Id="lua">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -779,7 +779,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).m" Description="Objective C" Icon="DEFAULT.ICO">
                <Extension Id="m">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -788,7 +788,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).makefile" Description="Makefile" Icon="DEFAULT.ICO">
                <Extension Id="makefile">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -797,7 +797,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).markdown" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="markdown">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -806,7 +806,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).md" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="md">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -815,7 +815,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mdoc" Description="MDoc" Icon="MARKDOWN.ICO">
                <Extension Id="mdoc">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -824,7 +824,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mdown" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mdown">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -833,7 +833,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mdtext" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mdtext">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -842,7 +842,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mdtxt" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mdtxt">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -851,7 +851,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mdwn" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mdwn">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -860,7 +860,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mkd" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mkd">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -869,7 +869,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mkdn" Description="Markdown" Icon="MARKDOWN.ICO">
                <Extension Id="mkdn">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -878,7 +878,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ml" Description="OCaml" Icon="DEFAULT.ICO">
                <Extension Id="ml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -887,7 +887,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mli" Description="OCaml" Icon="DEFAULT.ICO">
                <Extension Id="mli">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -896,7 +896,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).mjs" Description="JavaScript" Icon="JAVASCRIPT.ICO">
                <Extension Id="mjs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -905,7 +905,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).npmignore" Description="NPM Ignore" Icon="DEFAULT.ICO">
                <Extension Id="npmignore">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -914,7 +914,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).php" Description="PHP" Icon="DEFAULT.ICO">
                <Extension Id="php">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -923,7 +923,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).phtml" Description="PHP HTML" Icon="PHP.ICO">
                <Extension Id="phtml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -932,7 +932,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pl" Description="Perl" Icon="DEFAULT.ICO">
                <Extension Id="pl">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -941,7 +941,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pl6" Description="Perl 6" Icon="DEFAULT.ICO">
                <Extension Id="pl6">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -950,7 +950,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pm" Description="Perl Module" Icon="DEFAULT.ICO">
                <Extension Id="pm">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -959,7 +959,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pm6" Description="Perl 6 Module" Icon="DEFAULT.ICO">
                <Extension Id="pm6">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -968,7 +968,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pod" Description="Perl POD" Icon="DEFAULT.ICO">
                <Extension Id="pod">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -977,7 +977,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).pp" Description="Perl" Icon="DEFAULT.ICO">
                <Extension Id="pp">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -986,7 +986,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).profile" Description="Profile" Icon="SHELL.ICO">
                <Extension Id="profile">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -995,7 +995,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).properties" Description="Properties" Icon="DEFAULT.ICO">
                <Extension Id="properties">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1004,7 +1004,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ps1" Description="PowerShell" Icon="POWERSHELL.ICO">
                <Extension Id="ps1">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1013,7 +1013,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).psd1" Description="PowerShell" Icon="POWERSHELL.ICO">
                <Extension Id="psd1">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1022,7 +1022,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).psgi" Description="Perl CGI" Icon="DEFAULT.ICO">
                <Extension Id="psgi">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1031,7 +1031,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).psm1" Description="PowerShell Module" Icon="POWERSHELL.ICO">
                <Extension Id="psm1">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1040,7 +1040,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).py" Description="Python" Icon="PYTHON.ICO">
                <Extension Id="py">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1049,7 +1049,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).r" Description="R" Icon="DEFAULT.ICO">
                <Extension Id="r">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1058,7 +1058,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).rb" Description="Ruby" Icon="RUBY.ICO">
                <Extension Id="rb">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1067,7 +1067,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).rhistory" Description="R History" Icon="SHELL.ICO">
                <Extension Id="rhistory">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1076,7 +1076,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).rprofile" Description="R Profile" Icon="SHELL.ICO">
                <Extension Id="rprofile">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1085,7 +1085,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).rs" Description="Rust" Icon="DEFAULT.ICO">
                <Extension Id="rs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1094,7 +1094,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).rt" Description="Rich Text" Icon="DEFAULT.ICO">
                <Extension Id="rt">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1103,7 +1103,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).scss" Description="Sass" Icon="SASS.ICO">
                <Extension Id="scss">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1112,7 +1112,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).sh" Description="SH" Icon="SHELL.ICO">
                <Extension Id="sh">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1121,7 +1121,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).shtml" Description="SHTML" Icon="HTML.ICO">
                <Extension Id="shtml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1130,7 +1130,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).sql" Description="SQL" Icon="SQL.ICO">
                <Extension Id="sql">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1139,7 +1139,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).svg" Description="SVG" Icon="DEFAULT.ICO">
                <Extension Id="svg">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1148,7 +1148,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).svgz" Description="SVGZ" Icon="DEFAULT.ICO">
                <Extension Id="svgz">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1157,7 +1157,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).t" Description="Perl" Icon="DEFAULT.ICO">
                <Extension Id="t">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1166,7 +1166,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).tex" Description="LaTeX" Icon="DEFAULT.ICO">
                <Extension Id="tex">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1175,7 +1175,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).ts" Description="TypeScript" Icon="TYPESCRIPT.ICO">
                <Extension Id="ts">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1184,7 +1184,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).tsx" Description="TypeScript" Icon="REACT.ICO">
                <Extension Id="tsx">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1193,7 +1193,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).txt" Description="Text" Icon="DEFAULT.ICO">
                <Extension Id="txt">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1202,7 +1202,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).vb" Description="Visual Basic" Icon="DEFAULT.ICO">
                <Extension Id="vb">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1211,7 +1211,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).vue" Description="VUE" Icon="VUE.ICO">
                <Extension Id="vue">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1220,7 +1220,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).wxi" Description="WiX Include" Icon="DEFAULT.ICO">
                <Extension Id="wxi">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1229,7 +1229,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).wxl" Description="WiX Localization" Icon="DEFAULT.ICO">
                <Extension Id="wxl">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1238,7 +1238,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).wxs" Description="WiX" Icon="DEFAULT.ICO">
                <Extension Id="wxs">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1247,7 +1247,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).xaml" Description="XAML" Icon="XML.ICO">
                <Extension Id="xaml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1256,7 +1256,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).xml" Description="XML" Icon="XML.ICO">
                <Extension Id="xml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1265,7 +1265,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).yaml" Description="Yaml" Icon="YAML.ICO">
                <Extension Id="yaml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1274,7 +1274,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).yml" Description="Yaml" Icon="YAML.ICO">
                <Extension Id="yml">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1283,7 +1283,7 @@ index 3734d65..0fc6687 100644
              <ProgId Id="$(var.AppCodeName).zsh" Description="ZSH" Icon="SHELL.ICO">
                <Extension Id="zsh">
 -                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="VSCODIUM.EXE" />
-+                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIBE.EXE" />
++                <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" TargetFile="SCRIPTUREEDITOR.EXE" />
                </Extension>
              </ProgId>
            </Component>
@@ -1292,7 +1292,7 @@ index 3734d65..0fc6687 100644
      <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOX" Value="1" />
      <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="!(loc.LaunchApplication)" />
 -    <Property Id="WixShellExecTarget" Value="[#VSCODIUM.EXE]" />
-+    <Property Id="WixShellExecTarget" Value="[#SCRIBE.EXE]" />
++    <Property Id="WixShellExecTarget" Value="[#SCRIPTUREEDITOR.EXE]" />
      <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
    </Product>
  </Wix>
@@ -1305,7 +1305,7 @@ index 87ec399..5ffa1bc 100644
    <xsl:template match="node()[key('vId1ToReplace', @Id)]">
      <xsl:copy>
 -      <xsl:attribute name="Id">VSCODIUM.EXE</xsl:attribute>
-+      <xsl:attribute name="Id">SCRIBE.EXE</xsl:attribute>
++      <xsl:attribute name="Id">SCRIPTUREEDITOR.EXE</xsl:attribute>
        <xsl:copy-of select="@*[name()!='Id']"/>
        <xsl:apply-templates />
      </xsl:copy>
@@ -1313,7 +1313,7 @@ index 87ec399..5ffa1bc 100644
    <xsl:template match="wi:Component/wi:File[contains(@Source,'@@PRODUCT_NAME@@.exe')]">
       <xsl:copy>
 -        <xsl:attribute name="Id">VSCODIUM.EXE</xsl:attribute>
-+        <xsl:attribute name="Id">SCRIBE.EXE</xsl:attribute>
++        <xsl:attribute name="Id">SCRIPTUREEDITOR.EXE</xsl:attribute>
          <xsl:copy-of select="@*[name()!='Id']"/>
          <xsl:apply-templates />
       </xsl:copy>

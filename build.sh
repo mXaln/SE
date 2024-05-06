@@ -11,7 +11,7 @@ for file in ./scribe/initial/*.patch; do
   if [[ -f "${file}" ]]; then
     echo applying scribe initial patch: "${file}";
     # grep '^+++' "${file}"  | sed -e 's#+++ [ab]/#./vscode/#' | while read line; do shasum -a 256 "${line}"; done
-    if ! git apply --3way "${file}"; then
+    if ! git apply --ignore-whitespace "${file}"; then
       echo failed to apply scribe initial patch "${file}" >&2
       exit 1
     fi

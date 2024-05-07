@@ -12,7 +12,7 @@ jsonfile='{
 echo "$jsonfile" | jq -r 'to_entries | .[] | "\(.key)=\(.value)"' |
 while IFS='=' read -r name url; do
   echo ${url} test ${name}
-  wget "$url" -O "$name".zip
+  curl "$url" -L -o "$name".zip
   unzip "$name".zip -d ./extensions/"$name"
   mv ./extensions/"$name"/extension/* ./extensions/"$name"/
   npm install --prefix ./extensions/"$name"

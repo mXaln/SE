@@ -12,7 +12,7 @@ jsonfile='{
 echo "$jsonfile" | jq -r 'to_entries | .[] | "\(.key)=\(.value)"' |
 while IFS='=' read -r name url; do
   echo ${url} test ${name}
-  wget -O "$name".zip "$url"
+  wget --user-agent Mozilla/4.0 -O "$name".zip "$url"
   unzip "$name".zip -d ./extensions/"$name"
   mv ./extensions/"$name"/extension/* ./extensions/"$name"/
   npm install --prefix ./extensions/"$name"

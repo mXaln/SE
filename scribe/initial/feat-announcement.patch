@@ -7,7 +7,7 @@ index 769d78d..063530a 100644
  +			type: 'boolean',
  +			default: true,
 -+			description: localize('workbench.welcomePage.extraAnnouncements', "When enabled, the get started page loads additional announcements from VSCodium's repository.")
-++			description: localize('workbench.welcomePage.extraAnnouncements', "When enabled, the get started page loads additional announcements from ScribeEditor's repository.")
+++			description: localize('workbench.welcomePage.extraAnnouncements', "When enabled, the get started page loads additional announcements from ScriptureEditor's repository.")
  +		},
   		'workbench.startupEditor': {
  diff --git a/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts b/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
@@ -16,7 +16,7 @@ index 769d78d..063530a 100644
  +
  +		const announcementList = this.announcementList = new GettingStartedIndexList({
 -+			title: localize('announcements', "VSCodium Announcements"),
-++			title: localize('announcements', "ScribeEditor Announcements"),
+++			title: localize('announcements', "ScriptureEditor Announcements"),
  +			klass: 'announcements',
  +			limit: 5,
  +			empty: $('.empty-recent', {}, localize('noAnnouncements', "There are no current announcements.")),

@@ -25,7 +25,7 @@ index 769d78d..063530a 100644
  +			if (showExtras) {
  +				const branch = this.productService.quality === 'insider' ? 'insider' : 'master';
 -+				await fetch(`https://raw.githubusercontent.com/VSCodium/vscodium/${branch}/announcements-extra.json`)
-++				await fetch(`https://raw.githubusercontent.com/Bridgeconn/oak/${branch}/announcements-extra.json`)
+++				await fetch(`https://raw.githubusercontent.com/mxaln/ScriptureEditor/${branch}/announcements-extra.json`)
  +					.then(async res => {
  +						if (res.ok) {
  +							var extraAnnouncements = await res.json() as AnnouncementEntry[];

@@ -37,11 +37,11 @@ index 3da0242..d0867b1 100755
  setpath "product" "keyboardShortcutsUrlMac" "https://go.microsoft.com/fwlink/?linkid=832143"
  setpath "product" "keyboardShortcutsUrlWin" "https://go.microsoft.com/fwlink/?linkid=832145"
 -setpath "product" "licenseUrl" "https://github.com/VSCodium/vscodium/blob/master/LICENSE"
-+setpath "product" "licenseUrl" "https://github.com/Bridgeconn/oak/blob/master/LICENSE"
++setpath "product" "licenseUrl" "https://github.com/mxaln/ScriptureEditor/blob/master/LICENSE"
  setpath_json "product" "linkProtectionTrustedDomains" '["https://open-vsx.org"]'
  setpath "product" "releaseNotesUrl" "https://go.microsoft.com/fwlink/?LinkID=533483#vscode"
 -setpath "product" "reportIssueUrl" "https://github.com/VSCodium/vscodium/issues/new"
-+setpath "product" "reportIssueUrl" "https://github.com/Bridgeconn/oak/issues/new"
++setpath "product" "reportIssueUrl" "https://github.com/mxaln/ScriptureEditor/issues/new"
  setpath "product" "requestFeatureUrl" "https://go.microsoft.com/fwlink/?LinkID=533482"
  setpath "product" "tipsAndTricksUrl" "https://go.microsoft.com/fwlink/?linkid=852118"
  setpath "product" "twitterUrl" "https://go.microsoft.com/fwlink/?LinkID=533687"
@@ -49,7 +49,7 @@ index 3da0242..d0867b1 100755
  if [[ "${DISABLE_UPDATE}" != "yes" ]]; then
    setpath "product" "updateUrl" "https://vscodium.now.sh"
 -  setpath "product" "downloadUrl" "https://github.com/VSCodium/vscodium/releases"
-+  setpath "product" "downloadUrl" "https://github.com/Bridgeconn/oak/releases"
++  setpath "product" "downloadUrl" "https://github.com/mxaln/ScriptureEditor/releases"
  fi
  
  if [[ "${VSCODE_QUALITY}" == "insider" ]]; then

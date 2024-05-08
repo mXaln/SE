@@ -50,7 +50,7 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
-      - run: choco install wget
+      - run: choco install wget watchman
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment

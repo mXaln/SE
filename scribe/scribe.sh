@@ -5,7 +5,6 @@ while IFS=': ' read -r name url; do
   wget -O "$name".zip "$url"
   unzip "$name".zip -d ./extensions/"$name"
   mv ./extensions/"$name"/extension/* ./extensions/"$name"/
-  yarn install --cwd ./extensions/"$name"
   rm "$name".zip
 done <<EOF
 project-accelerate.codex-editor-extension: https://open-vsx.org/api/project-accelerate/codex-editor-extension/0.0.12/file/project-accelerate.codex-editor-extension-0.0.12.vsix

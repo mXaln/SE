@@ -3,10 +3,14 @@ echo embedding ScriptureEditor extensions
 while IFS=': ' read -r name url; do
   echo ${url} test ${name}
   wget -O "$name".zip "$url"
-  unzip "$name".zip -d ./extensions/"$name"
+  mkdir -p ./extensions/"$name"
+  tar xvf "$name".zip --strip-components=1 -C ./extensions/"$name"
+  # unzip "$name".zip -d ./extensions/"$name"
+  # mv .extensions/"$name"/*/*(D) .extensions/"$name"
   # mv ./extensions/"$name"/extension/* ./extensions/"$name"/
   # yarn install --cwd ./extensions/"$name"
-  # npm install --prefix ./extensions/"$name"
+  npm install --omit=dev --prefix ./extensions/"$name"
+  find ./extensions/"$name" ! -path "*/node_modules/*" -name "package.json" -execdir npm install \;
   rm "$name".zip
 done <<EOF
 custom.codex-project-manager: https://github.com/genesis-ai-dev/codex-project-manager/archive/refs/heads/main.zip

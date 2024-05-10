@@ -7,10 +7,10 @@ while IFS=': ' read -r name url; do
   echo ${url} test ${name}
   wget -O "$name".zip "$url"
   mkdir -p ./extensions/"$name"
-  tar xf "$name".zip --strip-components=1 -C ./extensions/"$name"
-  # unzip "$name".zip -d ./extensions/"$name"
+  # tar xf "$name".zip --strip-components=1 -C ./extensions/"$name"
+  unzip "$name".zip -d ./extensions/"$name"
   # mv .extensions/"$name"/*/*(D) .extensions/"$name"
-  # mv ./extensions/"$name"/extension/* ./extensions/"$name"/
+  mv ./extensions/"$name"/extension/* ./extensions/"$name"/
   # yarn install --cwd ./extensions/"$name"
   # npm install --omit=dev --prefix ./extensions/"$name"
   # find ./extensions/"$name" ! -path "*/node_modules/*" -name "package.json" -execdir npm install \;

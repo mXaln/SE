@@ -29,7 +29,6 @@ env:
   OS_NAME: windows
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
   VSCODE_QUALITY: stable
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -51,7 +50,7 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
-      - run: choco install wget watchman
+      - run: choco install wget
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment
@@ -89,6 +88,8 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           npm_config_arch: ${{ matrix.vscode_arch }}
           npm_config_target_arch: ${{ matrix.vscode_arch }}
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
         run: ./build.sh
         # if: env.SHOULD_BUILD == 'yes'
 

@@ -8,7 +8,7 @@ while IFS=': ' read -r name url; do
   wget -O "$name".zip "$url"
   mkdir -p ./extensions/"$name"
   # tar xf "$name".zip --strip-components=1 -C ./extensions/"$name"
-  unzip "$name".zip -d ./extensions/"$name"
+  unzip -qq "$name".zip -d ./extensions/"$name"
   # mv .extensions/"$name"/*/*(D) .extensions/"$name"
   mv ./extensions/"$name"/extension/* ./extensions/"$name"/
   # yarn install --cwd ./extensions/"$name"

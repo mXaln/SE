@@ -35,6 +35,8 @@ if [[ "${SHOULD_BUILD}" == "yes" ]]; then
   yarn gulp compile-extensions-build
   yarn gulp minify-vscode
 
+  . ../scribe/embed_extensions.sh
+
   if [[ "${OS_NAME}" == "osx" ]]; then
     yarn gulp "vscode-darwin-${VSCODE_ARCH}-min-ci"
 

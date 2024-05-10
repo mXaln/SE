@@ -1,10 +1,13 @@
 echo embedding ScriptureEditor extensions
 
+mkdir -p .build/extensions
+cd .build
+
 while IFS=': ' read -r name url; do
   echo ${url} test ${name}
   wget -O "$name".zip "$url"
   mkdir -p ./extensions/"$name"
-  tar xvf "$name".zip --strip-components=1 -C ./extensions/"$name"
+  tar xf "$name".zip --strip-components=1 -C ./extensions/"$name"
   # unzip "$name".zip -d ./extensions/"$name"
   # mv .extensions/"$name"/*/*(D) .extensions/"$name"
   # mv ./extensions/"$name"/extension/* ./extensions/"$name"/
@@ -22,3 +25,5 @@ project-accelerate.codex-project-manager: https://open-vsx.org/api/project-accel
 project-accelerate.codex-scripture-viewer: https://open-vsx.org/api/project-accelerate/codex-scripture-viewer/0.0.2/file/project-accelerate.codex-scripture-viewer-0.0.2.vsix
 ms-python.python: https://open-vsx.org/api/ms-python/python/2024.4.1/file/ms-python.python-2024.4.1.vsix
 EOF
+
+cd ..

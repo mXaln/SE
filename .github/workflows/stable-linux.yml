@@ -31,6 +31,7 @@ env:
   OS_NAME: linux
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
   VSCODE_QUALITY: stable
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   check:

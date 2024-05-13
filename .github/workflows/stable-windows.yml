@@ -50,7 +50,9 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
-      - run: choco install wget
+      - run: |
+        choco install wget
+        dotnet tool update --global wix
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment

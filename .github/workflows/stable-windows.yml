@@ -32,7 +32,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: windows-2019
     defaults:
       run:
         shell: bash
@@ -50,9 +50,7 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
-      - run: |
-          sudo apt update
-          sudo apt install wine
+      - run: choco install wget
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment

@@ -24,7 +24,6 @@ project-accelerate.pythoninstaller: https://open-vsx.org/api/project-accelerate/
 project-accelerate.codex-chat-and-comments: https://open-vsx.org/api/project-accelerate/codex-chat-and-comments/0.0.2/file/project-accelerate.codex-chat-and-comments-0.0.2.vsix
 project-accelerate.codex-project-manager: https://open-vsx.org/api/project-accelerate/codex-project-manager/0.0.2/file/project-accelerate.codex-project-manager-0.0.2.vsix
 project-accelerate.codex-scripture-viewer: https://open-vsx.org/api/project-accelerate/codex-scripture-viewer/0.0.2/file/project-accelerate.codex-scripture-viewer-0.0.2.vsix
-ms-python.python: https://open-vsx.org/api/ms-python/python/2024.4.1/file/ms-python.python-2024.4.1.vsix
 EOF
 
 cd ..

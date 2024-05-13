@@ -51,16 +51,15 @@ jobs:
 
     steps:
       - run: |
-          sudo apt-get update
-          sudo apt-get install libgd3=2.3.0-2ubuntu2
-          sudo apt-get install -y software-properties-common
-          sudo dpkg --add-architecture i386 && \
-            wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
-            sudo apt-key add winehq.key && \
-            sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
-          sudo apt-get update
-          sudo apt-get install --install-recommends wine-stable-i386:i386
-          sudo apt-get install -y --install-recommends winehq-stable
+          sudo dpkg --add-architecture i386
+          sudo apt update
+          wget -qO- https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+          sudo apt install software-properties-common
+          sudo apt-add-repository 'deb http://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+          wget -qO- https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/Release.key | sudo apt-key add -
+          sudo sh -c 'echo "deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/ ./" > /etc/apt/sources.list.d/obs.list'
+          sudo apt update
+          sudo apt-get install --install-recommends winehq-stable
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment

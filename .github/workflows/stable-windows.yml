@@ -51,8 +51,8 @@ jobs:
 
     steps:
       - run: |
-        choco install wget
-        dotnet tool update --global wix
+          choco install wget
+          dotnet tool update --global wix
       - uses: actions/checkout@v4
 
       - name: Setup Node.js environment

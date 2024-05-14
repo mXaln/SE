@@ -50,7 +50,7 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
-      - run: pwd
+      - run: mv /d/a/ScriptureEditor/ScriptureEditor /d/sb && cd /d/sb
       - run: choco install wget
       - uses: actions/checkout@v4
 

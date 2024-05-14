@@ -50,6 +50,7 @@ jobs:
       SHOULD_DEPLOY: ${{ env.SHOULD_DEPLOY }}
 
     steps:
+      - run: pwd
       - run: choco install wget
       - uses: actions/checkout@v4
 
